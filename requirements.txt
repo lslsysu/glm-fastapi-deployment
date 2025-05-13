@@ -1,0 +1,7 @@
+transformers
+torch
+uvicorn
+pydantic
+fastapi
+sse_starlette
+aiohttp
