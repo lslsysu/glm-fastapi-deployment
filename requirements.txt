@@ -5,3 +5,4 @@ pydantic
 fastapi
 sse_starlette
 aiohttp
+requests
