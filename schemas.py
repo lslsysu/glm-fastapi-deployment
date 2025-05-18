@@ -46,4 +46,5 @@ class ChatCompletionResponse(BaseModel):
     object: Literal["chat.completion", "chat.completion.chunk"]
     choices: List[Union[ChatCompletionResponseChoice, ChatCompletionResponseStreamChoice]]
     created: Optional[int] = Field(default_factory=lambda: int(time.time()))
-    completion_tokens: Optional[int]
+    # 用于压力测试
+    completion_tokens: Optional[int] = None
